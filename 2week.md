@@ -1,7 +1,7 @@
-## Cappit study project week2 assignments
+# Cappit study project week2 assignments
 
 
-### 1. DOM의 이해     
+## 1. DOM의 이해     
 
 #### 1-1. DOM datatypes    
    - document : object  
@@ -17,7 +17,11 @@
    - attribute : object  
      
    ![attribute datatype](./2week/attribute&#32;datatype.PNG)  
-   기본적으로 DOM의 이름에 걸맞게 객체로 구성되어있음을 알 수 있다.
+   기본적으로 DOM의 이름에 걸맞게 객체로 구성되어있음을 알 수 있다.  
+     
+     
+     
+             
  
 #### 1-2. 1주차 과제물 DOM 분석  
    - document.body:  
@@ -58,13 +62,24 @@
    ![](./cappit/homNode.getAttribute.PNG)  
    element의 attribute를 가져옵니다.
    - element.addEventListener :  
-   
+   element에 이벤트리스너를 붙입니다.
+   ```
+   const onClickListner = () =>{
+      let dummy = document.getElementsByTagName("div")[0] //DOM에서 div태그의 맨처음 객체를 가져옵니다.
+      dummy.InnerHtml = "hi";
+    }
+   homeNode.addEventListner("click",onClickListner);
+   ```
+   homeNode 객체에 클릭을 했을때 발생하는 이벤트를 넣습니다.
    - window.content 
    - window.onload 
    - window.dump 
    - window.scrollTo 
    - window.location
-### 2.JavaScript
+   
+   
+   
+## 2.JavaScript
 
 #### 2-1. JS코드를 활용한 type, command 이해
 
@@ -73,11 +88,16 @@
   2. NodeJs
   3. Chrome developer tool
 
-### 3. acmicpc
+
+## 3. acmicpc
   - 1065
   - 11729
   - 2851
   - 11726
-  - 10825
+  - 10825  
+  
+  
+  
+  
 
-### 4. JQeury 를 활용한 1주차 과제 DOM 분석
+## 4. JQeury 를 활용한 1주차 과제 DOM 분석
