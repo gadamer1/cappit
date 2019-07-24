@@ -20,7 +20,7 @@
    기본적으로 DOM의 이름에 걸맞게 객체로 구성되어있음을 알 수 있다.  
      
      
-     
+--------------------     
              
  
 #### 1-2. 1주차 과제물 DOM 분석  
@@ -37,7 +37,9 @@
    - document.getElementsByTagName(name) :  
    ![document.getElementByTagName](./2week/document-getElementByTageName.PNG)  
    header라는 태그를 갖고있는 element를 배열(객체)로 가져올 수 있습니다.  
-   
+     
+     
+     
    - document.createElement(name) :  
    ![document.createElement](./2week/document-createElement.PNG)  
    element 객체를 만들 수 있습니다. <p></p> 태그 객체를 만들었습니다.  
@@ -94,18 +96,18 @@
    현재 브라우저의 위치를 나타냅니다.
    
    
-   
+   ----------------
    
 ## 2.JavaScript
 
 #### 2-1. JS코드를 활용한 type, command 이해
-
+--------------------
 #### 2-2. 다양한 환경에서 실행
   1. HTML Script
   2. NodeJs
   3. Chrome developer tool
 
-
+------------------
 ## 3. acmicpc
   - 1065
   - 11729
@@ -116,5 +118,5 @@
   
   
   
-
+----------------
 ## 4. JQeury 를 활용한 1주차 과제 DOM 분석
