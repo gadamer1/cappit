@@ -107,7 +107,19 @@
    
 ## 2.JavaScript
 
-#### 2-1. JS코드를 활용한 type, command 이해
+#### 2-1. JS코드를 활용한 type, command 이해  
+ ##### * 데이터 타입  
+ Boolean : true or false  
+ Null :   
+ Undefined : 비할당 변수    
+ Number : 64비트 형식 IEEE 754값
+   - +무한대 (Infinity)
+   - -무한대 (-Infinity)
+   - NaN( not a number)
+ String : 16비트 부호없는 정수 값의 집합      
+ Symbol : 유일하고 변경불가능한 기본값. 객체 프로퍼티의 식별자로 활용
+       
+      
 --------------------
 #### 2-2. 다양한 환경에서 실행
   1. HTML Script
