@@ -4,17 +4,19 @@
 ### 1. DOM의 이해     
 
 #### 1-1. DOM datatypes    
-   - document : object  
-   ![document datatype](./2week/documentdatatype.png)
+   - document : object 
+   ![document datatype](./2week/document&#32;datatype.PNG)
      
    - element : object  
-   ![element datatype](./2week/elementdatatype.png)
+   ![element datatype](./2week/element&#32;datatype.PNG)
    - nodeList :  the object that having objects(nodes)  
-   ![nodeList datatype](./2week/nodelistdatatype.png)
+   ![nodeList datatype](./2week/nodelist&#32;datatype.PNG)
    - attribute : object  
-   ![attribute datatype](http://www.google.co.kr/images/srpr/logo11w.png)
-
+   ![attribute datatype](./2week/attribute&#32;datatype.PNG)  
+   기본적으로 DOM의 이름에 걸맞게 객체로 구성되어있음을 알 수 있다.
+ 
 #### 1-2. 1주차 과제물 DOM 분석  
+   -
 ### 2.JavaScript
 
 #### 2-1. JS코드를 활용한 type, command 이해
