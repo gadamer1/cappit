@@ -5,14 +5,14 @@
 
 #### 1-1. DOM datatypes    
    - document : object  
-   ![document datatype](./2week/document datatype.png)
+   ![document datatype](./2week/documentdatatype.png)
      
    - element : object  
-   ![element datatype](./2week/element datatype.png)
+   ![element datatype](./2week/elementdatatype.png)
    - nodeList :  the object that having objects(nodes)  
-   ![nodeList datatype](./2week/nodelist datatype.png)
+   ![nodeList datatype](./2week/nodelistdatatype.png)
    - attribute : object  
-   ![attribute datatype](./http://www.google.co.kr/images/srpr/logo11w.png)
+   ![attribute datatype](http://www.google.co.kr/images/srpr/logo11w.png)
 
 #### 1-2. 1주차 과제물 DOM 분석  
 ### 2.JavaScript
