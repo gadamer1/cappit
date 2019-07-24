@@ -85,8 +85,15 @@
    - window.content :  
    
    - window.onload :  
-   
+   브라우저가 dom객체를 처리하고 화면에 표시된 뒤 실행됩니다.  
+   보통 html, css , js파일등을 다 브라우저가 처리한 뒤 함수를 실행하고 싶을 때 많이 사용합니다.  
+   확실하게 script를 실행하고 싶을 때, 모든 javascript 함수를 **window= function(){ ///all code///}** 이렇게 실행합니다.
    - window.dump :  
+   ```
+   window.dump(message)
+   ```
+   message를 console에 출력합니다.
+   브라우저가 dump를 지원해주면 javascript를 디버깅을 할 때 사용됩니다.
    
    - window.scrollTo :  
    브라우저가 현재 나타내고있는 html의 스크롤 위치(_(x,y) 좌표_)를 움직여 줄 수 있습니다.  
