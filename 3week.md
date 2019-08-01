@@ -1,5 +1,6 @@
 ## 1. javascript acmicpc
 
+<<<<<<< HEAD
 #### - [1065](https://www.acmicpc.net/problem/1065) 한수
 ```
 const readline = require('readline');
@@ -91,6 +92,8 @@ rl.on("line", function(line){
 
 ```
 
+=======
+>>>>>>> 376e08bd909b34c817f6ab0ac23c36b5967e372a
 #### - [2798](https://www.acmicpc.net/problem/2798) 블랙잭
 ``` 
 const readline = require('readline');
@@ -252,4 +255,8 @@ rl.on("line", function(line){
 }).on('close',function(){
 })
 
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 376e08bd909b34c817f6ab0ac23c36b5967e372a
