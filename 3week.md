@@ -29,6 +29,35 @@ rl.on("line", function(line){
 })
 ```
 
+#### - [11729](https://www.acmicpc.net/problem/11729) 하노이 탑 이동순서
+```
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+})
+
+let input ;
+
+const move = (n,a,b,c) =>{
+    if(n==1){
+        console.log(a+' '+c);
+    }else{
+        move(n-1,a,c,b); //n-1개를 a에서 일단 b로
+        console.log(a+' '+c)//a에서 c로 옮김
+        move(n-1,b,a,c) //n-1개를 b에서 c로
+    }
+}
+
+rl.on("line",function(line){
+    input =parseInt(line);
+    rl.close();
+}).on("close",function(){
+    console.log((1<<input)-1);
+    move(input,1,2,3);
+})
+```
+
 #### - [2851](https://www.acmicpc.net/problem/2851) 슈퍼마리오
 ```
 const readline = require('readline');
